@@ -1,28 +1,37 @@
 .navbar{
   display: flex;
-  border: 2px solid red;
+  background-color: black;
   width: 1366px;
-  height: 50px;
+  height: 60px;
   font-family: 'Poppins', sans-serif;
+  text-align: center;
+  justify-content: center;
 
   nav{
-    border: 2px blue solid;
-    width: 400px;
+    width: 350px;
     display: flex;
     align-items: center;
 
     ul{
       display: flex;
+      align-items: center;
 
       li{
         flex-direction: row;
         padding-right: 25px;
 
         a{
-          color: black;
+          color: whitesmoke;
           text-decoration: none;
         }
       }
     }
   }
+
+}
+
+.hero-section{
+  border: solid blue 2px;
+  width: 1366px;
+  height: 500px;
 }

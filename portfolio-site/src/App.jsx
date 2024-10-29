@@ -15,7 +15,9 @@ function App() {
             </ul>
           </nav>
         </div>
-      <div className="hero-section"></div>
+      <div className="hero-section">
+        hero section
+      </div>
     </body>
   )
 }
