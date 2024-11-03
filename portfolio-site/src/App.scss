@@ -30,8 +30,15 @@
 
 }
 
-.hero-section{
-  border: solid blue 2px;
+.overlay{
+  position: relative;
+  height: 700px;
   width: 1366px;
-  height: 500px;
+  background-color: rgba(0,0,0,0.4);
+  z-index: 1;
+
+  .hero-section{
+    width: 1366px;
+    height: 702px;
+  }
 }
