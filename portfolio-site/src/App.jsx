@@ -16,9 +16,7 @@ function App() {
           </nav>
         </div>
       <div className="hero-section">
-        <div className="overlay">
-          <img src="../images/graphic2.jpg"  height={700} width={1366}/>
-        </div>
+          <img className="hero-img" src="../images/graphic2.jpg"  height={700} width={1266}/>
       </div>
     </body>
   )
