@@ -18,6 +18,9 @@ function App() {
       <div className="hero-section">
           <img className="hero-img" src="../images/pexels-tranmautritam-326501.jpg"  height={600} width={1366}/>
       </div>
+      <div className="about-me">
+        About the designer
+      </div>
     </body>
   )
 }
