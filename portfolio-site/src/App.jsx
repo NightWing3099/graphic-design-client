@@ -16,7 +16,7 @@ function App() {
           </nav>
         </div>
       <div className="hero-section">
-          <img className="hero-img" src="../images/graphic2.jpg"  height={700} width={1266}/>
+          <img className="hero-img" src="../images/pexels-tranmautritam-326501.jpg"  height={600} width={1366}/>
       </div>
     </body>
   )
