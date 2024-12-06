@@ -42,3 +42,26 @@
     height: 702px;
   }
 }
+
+.about-me{
+  height: 105vh;
+  width: 1366px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 150px;
+
+
+  .about-info{
+    border: red solid 2px;
+    margin-left: 150px;
+    height: 500px;
+    width: 500px;
+  }
+
+  .about-img{
+    border: blue solid 2px;
+    height: 500px;
+    width: 500px;
+    margin-left: 80px;
+  }
+}
