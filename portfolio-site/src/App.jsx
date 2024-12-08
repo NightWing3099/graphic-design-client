@@ -19,6 +19,7 @@ function App() {
           <img className="hero-img" src="../images/pexels-tranmautritam-326501.jpg"  height={600} width={1366}/>
       </div>
       <div className="about-me">
+        <h1>About Me</h1>
         <div className="about-info">
           <p>
             Hi, I’m a graphic designer with 10 years of experience turning ideas into designs that don’t just look good—they work. 
@@ -29,7 +30,7 @@ function App() {
           </p>
 
         </div>
-        <div className="about-img">hi</div>
+        <div className="about-img"></div>
       </div>
       <div className="Portfolio-section"></div>
     </body>
