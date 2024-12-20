@@ -31,6 +31,7 @@ function App() {
 
         </div>
         <div className="about-img"></div>
+        <div className="background-overlay"></div>
       </div>
       <div className="portfolio-section">
         <h1 className="projects-intro">My Work</h1>
