@@ -98,8 +98,8 @@
 }
 
 .portfolio-section{
-  border: solid red 3px;
-  height: 600px;
+  border: solid red 2px;
+  height: 800px;
   font-family: 'Poppins', sans-serif;
   text-align:  center;
 
@@ -111,6 +111,8 @@
   .projects{
     border: 2px solid blue;
     margin-top: 40px;
-    height: 450px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
   }
 }
