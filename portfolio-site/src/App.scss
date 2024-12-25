@@ -114,5 +114,13 @@
     height: 500px;
     display: flex;
     flex-wrap: wrap;
+    padding-left: 20px;
+
+    .project{
+      border: 2px solid red;
+      height: 200px;
+      width: 200px;
+      margin-right: 20px;
+    }
   }
 }

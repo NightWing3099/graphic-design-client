@@ -35,7 +35,14 @@ function App() {
       </div>
       <div className="portfolio-section">
         <h1 className="projects-intro">My Work</h1>
-        <div className="projects"></div>
+        <div className="projects">
+          <div className="project"></div>
+          <div className="project"></div>
+          <div className="project"></div>
+          <div className="project"></div>
+          <div className="project"></div>
+          <div className="project"></div>
+        </div>
       </div>
     </body>
   )
