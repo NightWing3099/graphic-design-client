@@ -1,6 +1,6 @@
 .navbar{
   display: flex;
-  background-color: black;
+  background-color: #1a1a1a;
   width: 1366px;
   height: 60px;
   font-family: 'Poppins', sans-serif;
@@ -117,10 +117,36 @@
     padding-left: 20px;
 
     .project{
-      border: 2px solid red;
       height: 200px;
       width: 200px;
       margin-right: 20px;
     }
+
+    .project:nth-child(1){
+      background: blue;
+    }
+    .project:nth-child(2){
+      background: red;
+    }
+    .project:nth-child(3){
+      background: green;
+    }
+    .project:nth-child(4){
+      background: purple;
+    }
+    .project:nth-child(5){
+      background: yellow;
+    }
+    .project:nth-child(6){
+      background: black;
+    }
   }
+}
+
+.contact{
+  height: 600px;
+  width: 1366px;
+  display: flex;
+  border: orange solid 2px;
+  font-family: 'Poppins', sans-serif;
 }

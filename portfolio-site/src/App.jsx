@@ -44,6 +44,9 @@ function App() {
           <div className="project"></div>
         </div>
       </div>
+      <div className="contact">
+        <h1>Hello World</h1>
+      </div>
     </body>
   )
 }
