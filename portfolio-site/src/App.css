@@ -1,6 +1,6 @@
 .navbar {
   display: flex;
-  background-color: black;
+  background-color: #1a1a1a;
   width: 1366px;
   height: 60px;
   font-family: "Poppins", sans-serif;
@@ -87,7 +87,6 @@
 }
 
 .portfolio-section {
-  border: solid red 2px;
   height: 800px;
   font-family: "Poppins", sans-serif;
   text-align: center;
@@ -97,7 +96,6 @@
   margin-top: 40px;
 }
 .portfolio-section .projects {
-  border: 2px solid blue;
   margin-top: 40px;
   height: 500px;
   display: flex;
@@ -105,8 +103,34 @@
   padding-left: 20px;
 }
 .portfolio-section .projects .project {
-  border: 2px solid red;
   height: 200px;
   width: 200px;
   margin-right: 20px;
+}
+.portfolio-section .projects .project:nth-child(1) {
+  background: blue;
+}
+.portfolio-section .projects .project:nth-child(2) {
+  background: red;
+}
+.portfolio-section .projects .project:nth-child(3) {
+  background: green;
+}
+.portfolio-section .projects .project:nth-child(4) {
+  background: purple;
+}
+.portfolio-section .projects .project:nth-child(5) {
+  background: yellow;
+}
+.portfolio-section .projects .project:nth-child(6) {
+  background: black;
+}
+
+.contact {
+  height: 600px;
+  width: 1366px;
+  display: flex;
+  border: orange solid 2px;
+  font-family: "Poppins", sans-serif;
+  background-color: #1a1a1a;
 }/*# sourceMappingURL=App.css.map */
